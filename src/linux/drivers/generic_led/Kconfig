@@ -1,0 +1,13 @@
+#
+# Generic LED control driver
+#
+
+menu "Generic LED control driver"
+	config GENERIC_LED_CTL
+	bool "Generic LED control driver"
+	default y
+	---help---
+	Generic LED control driver.
+
+endmenu
+

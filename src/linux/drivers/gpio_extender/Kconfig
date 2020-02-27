@@ -1,0 +1,11 @@
+#
+# EXTENDER (I2C) driver configuration
+#
+
+menu "GPIO EXTENDER driver"
+	config GPIO_EXTENDER
+	bool "GPIO extender control driver"
+	default y
+	---help---
+	GPIO extender control driver
+endmenu
